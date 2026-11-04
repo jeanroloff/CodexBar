@@ -1,0 +1,10 @@
+Regression test comparison
+
+Base 897bff31731b + regression test from the PR:
+  Fails: four affected header cases, 12 failed assertions.
+
+PR 799eff912094:
+  Passes: the same parameterized test, all six header cases.
+
+Command:
+  make test-fast FILTER=KiroPlanNameTests

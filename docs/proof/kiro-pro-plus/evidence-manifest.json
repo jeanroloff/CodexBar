@@ -1,0 +1,44 @@
+{
+  "base_commit": "897bff31731bb4b21b105f6e8bf4c32a8a8bf095",
+  "head_commit": "799eff912094e9d59efa5d1ff6cbd03fefa6f0ab",
+  "kiro_cli_version": "2.35.2",
+  "input_header": "Estimated Usage | resets on [MASKED] | KIRO PRO+",
+  "before_plan": "Kiro Pro",
+  "after_plan": "Kiro Pro+",
+  "cli_evidence": "Images render sanitized projections of real packaged CLI JSON output; original JSON structure is also supplied with sensitive values masked.",
+  "menubar_evidence": "Native macOS screenshots cropped to the menu header; no plan-label retouching.",
+  "fallback": "API state isolated to an empty temporary directory; real Kiro CLI used.",
+  "tests": "Base: 12 failed assertions across four affected cases. Head: all six cases pass.",
+  "images": {
+    "after-cli.png": {
+      "sha256": "a25d8e5f268028094e027bb8cadd22c63c8c0e31fc64ab4632f3f94658bed10f",
+      "pixel_data_sha256": "c3bb336813e3aa846d35f061892245c043314d277510d7aeea567a1397c53734",
+      "textual_metadata_removed": [
+        "eXIf"
+      ]
+    },
+    "after-menubar.png": {
+      "sha256": "8f62501d233db953b0c9176e7f150d431123a46cb2b90533cccc7f2ffb37f8f1",
+      "pixel_data_sha256": "4c2cb54d71ec524a15a80d468e71747ff52ec6bfac22238ac79322fc4281499a",
+      "textual_metadata_removed": [
+        "eXIf",
+        "iTXt"
+      ]
+    },
+    "before-cli.png": {
+      "sha256": "e4bb4fb3b47ad5b4658277abdbfeb8e0472c89499fe2c464b9f0c0de28d155d2",
+      "pixel_data_sha256": "e8de73e08d9de045a93eecc0f589ba9564094b9c76226d35f045042aea717286",
+      "textual_metadata_removed": [
+        "eXIf"
+      ]
+    },
+    "before-menubar.png": {
+      "sha256": "8c39d21a6b6602e4fa163fa2dcc414eb736903d445bcf1078dff02a9e48608fa",
+      "pixel_data_sha256": "15e6d6d1760a34d89548d0acdc1a0159f19203851da61cf8e7d7175a9c62f15e",
+      "textual_metadata_removed": [
+        "eXIf",
+        "iTXt"
+      ]
+    }
+  }
+}

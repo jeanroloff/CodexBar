@@ -1,0 +1,19 @@
+KIRO PLAN REGRESSION - BEFORE
+Commit: 897bff31731b
+Command: CodexBarCLI usage --provider kiro --format json
+
+Real kiro-cli 2.35.2 report (billing date masked):
+Estimated Usage | resets on [MASKED] | KIRO PRO+
+
+CLI result summary - sanitized projection of real JSON:
+{
+  "provider": "kiro",
+  "source": "cli",
+  "plan": "Kiro Pro",
+  "account": "[MASKED]",
+  "exit_code": 0
+}
+
+Input header captured from real kiro-cli /usage --v2.
+API lookup isolated to an empty temporary state directory.
+Identity, usage amounts and private paths omitted.

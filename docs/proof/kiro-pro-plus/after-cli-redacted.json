@@ -1,0 +1,63 @@
+[
+  {
+    "pace": {
+      "primary": {
+        "deltaPercent": "[MASKED]",
+        "expectedUsedPercent": "[MASKED]",
+        "stage": "[MASKED]",
+        "summary": "[MASKED]",
+        "willLastToReset": true
+      }
+    },
+    "provider": "kiro",
+    "rateWindowLabels": {
+      "primary": "[MASKED]"
+    },
+    "source": "cli",
+    "usage": {
+      "accountEmail": "[MASKED]",
+      "details": [
+        {
+          "rows": [
+            {
+              "label": "Plan",
+              "value": "Kiro Pro+"
+            },
+            {
+              "label": "Credits left",
+              "value": "[MASKED]"
+            },
+            {
+              "label": "Credits used",
+              "value": "[MASKED]"
+            },
+            {
+              "label": "Credits total",
+              "value": "[MASKED]"
+            },
+            {
+              "label": "Overages",
+              "value": "[MASKED]"
+            }
+          ],
+          "title": "[MASKED]"
+        }
+      ],
+      "identity": {
+        "accountEmail": "[MASKED]",
+        "loginMethod": "[MASKED]",
+        "providerID": "[MASKED]"
+      },
+      "loginMethod": "[MASKED]",
+      "primary": {
+        "resetsAt": "[MASKED]",
+        "usedPercent": "[MASKED]",
+        "windowMinutes": "[MASKED]"
+      },
+      "secondary": null,
+      "tertiary": null,
+      "updatedAt": "[MASKED]"
+    },
+    "version": "2.35.2"
+  }
+]
